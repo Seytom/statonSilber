@@ -1,0 +1,64 @@
+// Place all the styles related to the Master controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#main_content{
+	padding-left: 15%;
+    padding-right: 7%;
+	
+	background-image: url('seamless_paper_texture.png');
+	min-height: 85%;
+    height: auto !important;	
+    height:100%;
+    margin: 0 auto -140px;
+}
+
+#box1{
+	width: 100%;
+	float: left;
+}
+
+
+
+#box2{
+	width: 35%;
+	float:right;
+	margin-right:100px;
+}
+
+.attorney h3{
+	text-decoration:underline;
+	margin-bottom: 3px;
+	color:#00557B
+}
+
+.no_margin_bottom{
+	margin-bottom: 0px;
+}
+
+#slideshow {
+    position:relative;
+    height:500px;
+    width:500px;
+}
+
+#slideshow IMG {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    height:500px;
+    width:500px;
+}
+
+#slideshow IMG.active {
+    z-index:10;
+    height:500px;
+    width:500px;
+}
+
+#slideshow IMG.last-active {
+    z-index:9;
+    height:500px;
+    width:500px;
+}

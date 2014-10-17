@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Staton, Silber, P.S.</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<div id="wrap" class="site">
+		<div id="header">
+		<%=	image_tag("Staton-Silber-Logo-Web.png", size: "10%", alt: "Edit Entry") %>
+		</div>
+
+		<div id="subheader">
+			<h3 class="no_margin_top" id="subtitle">Workers' Compensation Attorneys</h3>
+		</div>
+
+		<%= yield %>
+
+		<div id="footer" class="site-footer">		
+			<div id="office_locations">
+				<p> <a href="https://www.google.com/maps/place/19929+Ballinger+Way+NE+%23101,+Seattle,+WA+98155/@47.773272,-122.308062,17z/data=!3m1!4b1!4m2!3m1!1s0x549010406842e90d:0x2ba78de6f50fc458">
+					Staton Silber, P.S. <br>				
+					Attorneys at Law <br>
+					19929 Ballinger Way NE, Suite 101 <br>
+					Seattle, WA 98155 <br></a>
+					Tel. 206-519-5740 <br>
+					Fax:  206-519-5746 <br>
+				</p>
+			</div>
+		</div>
+	</div> <!--End of div 'Wrap'-->
+</body>
+</html>

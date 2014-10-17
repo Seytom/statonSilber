@@ -1,0 +1,118 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+html{
+	font-family: sans-serif;
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+
+body{
+	font-family: sans-serif;
+	width:100%;
+	height:100%;
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+body h1{
+	color: #00557B;
+	font-family: sans-serif;
+
+}
+
+.site {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+ 
+.site-footer {
+  display: table-row;
+  height: 1px;
+}
+
+#header{
+ 	background-color: #01304A;
+ 	color: white;
+ 	height: 12%;
+ 	padding-left: 15%;
+ }
+
+#firm_name{
+	font-size: 30pt;
+	padding-top: 30px;
+	margin-bottom: 0px;
+}
+
+ #smaller_font{
+ 	font-size: 15pt;
+
+ }
+
+ #at_law{
+ 	margin-top: 5px;
+ } 
+
+ #header h1{
+ 	color: white;
+ }
+
+ #subheader{
+ 	background-color: #923e19;
+ 	color: white;
+ 	height: 4%;
+ 	margin-top: 5px;
+ }
+
+ .no_margin_top{
+ 	margin-top: 0px;
+ 	padding-top: 5px;
+ }
+
+ #subtitle{
+ 	padding-left: 15%;
+ 	padding-top: 5px;
+ }
+
+ #footer{
+ 	background-color: #005984;
+ 	height: 140px;
+ 	color: #588dab;
+ 	width:100%;
+ 	float:right;
+ 	margin-top:1px;
+ 	  }
+
+ #footer a {
+ 	background-color: #005984;
+ 	color: white;
+ 	text-decoration: none;
+
+ }
+
+ 
+ #footer a:hover {
+    text-decoration: underline;
+    color: black;
+} 
+
+ #office_locations{
+ 	color: white;
+ 	text-align: left;
+ 	float: right;
+ 	padding-right: 14%;
+	
+ }
